@@ -1,0 +1,32 @@
+
+.slides{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:450px;
+    width:900px
+}
+.prev{
+    position:absolute;
+    margin-left: 60px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+.next{
+    position:absolute;
+    margin-left: 1200px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+.slide-active{
+    opacity:0;
+    transition-duration: 1s ease;
+}
+/* .slide{
+    opacity:1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+} */

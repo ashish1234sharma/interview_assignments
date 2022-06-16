@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import { Login } from './login ';
+import { Option } from './Option';
+import { Lab } from './lab';
+import { Input } from './input';
+import { Insironlab } from './insironlab';
+import { Dropdown } from './components/Dropdown';
+import { Apifetch } from './components/Apifetch';
+import { As_Uppercase } from './components/uppercase';
+import { ImageSlider } from './components/ImageSlider/ImageSlider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Login /> */}
+      {/* <Option /> */}
+      {/* <Input /> */}
+      {/* <Insironlab /> */}
+      {/* <Dropdown /> */}
+      {/* <Apifetch /> */}
+      {/* <As_Uppercase /> */}
+      <ImageSlider />
+      
     </div>
   );
 }
