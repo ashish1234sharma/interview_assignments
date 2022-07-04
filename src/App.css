@@ -4,5 +4,11 @@
   border:1px solid red
 }
 .App{
- margin:auto
+ margin:auto;
+ display: flex;
+}
+.span{
+ margin-left: 10px;
+ cursor: pointer;
+ margin-top: 50px;
 }

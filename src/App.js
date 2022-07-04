@@ -8,7 +8,10 @@ import { Insironlab } from './insironlab';
 import { Dropdown } from './components/Dropdown';
 import { Apifetch } from './components/Apifetch';
 import { As_Uppercase } from './components/uppercase';
+import { Samp} from './components/Samp';
 import { ImageSlider } from './components/ImageSlider/ImageSlider';
+
+import { StarRating } from './components/Star_rating/Rating';
 
 function App() {
   return (
@@ -20,7 +23,8 @@ function App() {
       {/* <Dropdown /> */}
       {/* <Apifetch /> */}
       {/* <As_Uppercase /> */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
+     <StarRating />
       
     </div>
   );

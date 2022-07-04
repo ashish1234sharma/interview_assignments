@@ -50,6 +50,8 @@ export const Insironlab = () => {
       ];
     const [country,setCountry] = useState("")
     const [data,setData] =useState([])
+    
+    console.log(data)
     console.log(country)
     
      const handleCountry=(e)=>{

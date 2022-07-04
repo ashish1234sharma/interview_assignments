@@ -15,7 +15,7 @@ export const ImageSlider = () => {
     return null;
   }
 
-  console.log(current);
+  
   return (
     <section>
       <button className="prev" onClick={handlePrev}>
@@ -26,8 +26,8 @@ export const ImageSlider = () => {
       </button>
       {Slider.map((e,index) => {
         return (
-          <div key={e.id} className={index==current ? "slides"  : "slide-active"}>
-            {index==current && (<img src={e.image} alt="Mountain" className="image" key={e.id} />)}
+          <div key={e.id} className="slides">
+            {index==current && (<img src={e.image} alt="Mountain" className="image"  />)}
             
           </div>
         );
